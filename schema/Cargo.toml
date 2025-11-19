@@ -1,0 +1,10 @@
+[package]
+name = "schema"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+regex = "1.12.2"
+serde = "1.0.228"
+validator = { version = "0.20.0", features = ["derive"] }
+utoipa = "5.4.0"

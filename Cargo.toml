@@ -1,0 +1,9 @@
+[workspace.package]
+name = "authentication"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["api", "entity", "migration", "migrator", "schema", "utilities"]
+
+resolver = "3"
