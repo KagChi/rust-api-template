@@ -105,7 +105,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "axum",
- "dotenvy 0.15.7 (git+https://github.com/allan2/dotenvy?rev=86c0d6dd2938e615135813df9e3274bf8f42c455)",
+ "dotenvy 0.15.7 (git+https://github.com/allan2/dotenvy?rev=fa25166994d6978bd2e002f0ed190c0c39674ebe)",
  "schema",
  "sea-orm",
  "serde",
@@ -624,7 +624,7 @@ checksum = "1aaf95b3e5c8f23aa320147307562d361db0ae0d51242340f558153b4eb2439b"
 [[package]]
 name = "dotenvy"
 version = "0.15.7"
-source = "git+https://github.com/allan2/dotenvy?rev=86c0d6dd2938e615135813df9e3274bf8f42c455#86c0d6dd2938e615135813df9e3274bf8f42c455"
+source = "git+https://github.com/allan2/dotenvy?rev=fa25166994d6978bd2e002f0ed190c0c39674ebe#fa25166994d6978bd2e002f0ed190c0c39674ebe"
 dependencies = [
  "dotenvy-macros",
 ]
@@ -632,7 +632,7 @@ dependencies = [
 [[package]]
 name = "dotenvy-macros"
 version = "0.15.7"
-source = "git+https://github.com/allan2/dotenvy?rev=86c0d6dd2938e615135813df9e3274bf8f42c455#86c0d6dd2938e615135813df9e3274bf8f42c455"
+source = "git+https://github.com/allan2/dotenvy?rev=fa25166994d6978bd2e002f0ed190c0c39674ebe#fa25166994d6978bd2e002f0ed190c0c39674ebe"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1324,7 +1324,7 @@ dependencies = [
 name = "migrator"
 version = "0.1.0"
 dependencies = [
- "dotenvy 0.15.7 (git+https://github.com/allan2/dotenvy?rev=86c0d6dd2938e615135813df9e3274bf8f42c455)",
+ "dotenvy 0.15.7 (git+https://github.com/allan2/dotenvy?rev=fa25166994d6978bd2e002f0ed190c0c39674ebe)",
  "migration",
  "sea-orm",
  "tokio",
