@@ -4,7 +4,7 @@ version.workspace = true
 edition.workspace = true
 
 [dependencies]
-dotenvy = { git = "https://github.com/allan2/dotenvy", rev = "86c0d6dd2938e615135813df9e3274bf8f42c455", features = ["macros"]}
+dotenvy = { git = "https://github.com/allan2/dotenvy", rev = "fa25166994d6978bd2e002f0ed190c0c39674ebe", features = ["macros"]}
 migration = { path = "../migration" }
 sea-orm = { version = "2.0.0-rc", features = [ "sqlx-postgres", "runtime-tokio", "macros", "with-uuid" ] }
 tokio = { version = "1.48.0", features = ["macros", "rt-multi-thread", "rt"] }
