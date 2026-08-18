@@ -6,7 +6,7 @@ edition.workspace = true
 [dependencies]
 schema = { path = "../schema" }
 utilities = { path = "../utilities" }
-dotenvy = { git = "https://github.com/allan2/dotenvy", rev = "fa25166994d6978bd2e002f0ed190c0c39674ebe", features = ["macros"]}
+dotenvy = { git = "https://github.com/allan2/dotenvy", rev = "21c9e82e268defa30bc80a535c8af23561473e08", features = ["macros"]}
 axum = { version = "0.8.6", features = ["macros"] }
 sea-orm = { version = "2.0.0-rc", features = [ "sqlx-postgres", "runtime-tokio-rustls", "runtime-tokio", "macros", "with-uuid" ] }
 tokio = { version = "1.48.0", features = ["macros", "rt-multi-thread"] }
